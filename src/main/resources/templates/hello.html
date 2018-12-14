@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script type="text/javascript" src="../static/hello.js" th:src="@{../static/hello.js}"></script>
+<h1>Hello Thymeleaf2</h1>
+<H1 th:text="${eventName}"></H1>
+<div id="app">
+    <p>{{ message }}</p>
+</div>
+</body>
+</html>
